@@ -1,23 +1,24 @@
 chembl_migration_model
 ======
 
-.. image:: https://pypip.in/version/chembl_migration_model/badge.svg
+
+.. image:: https://img.shields.io/pypi/v/chembl_migration_model.svg
     :target: https://pypi.python.org/pypi/chembl_migration_model/
     :alt: Latest Version
 
-.. image:: https://pypip.in/download/chembl_migration_model/badge.svg
+.. image:: https://img.shields.io/pypi/dm/chembl_migration_model.svg
     :target: https://pypi.python.org/pypi/chembl_migration_model/
     :alt: Downloads
 
-.. image:: https://pypip.in/py_versions/chembl_migration_model/badge.svg
+.. image:: https://img.shields.io/pypi/pyversions/chembl_migration_model.svg
     :target: https://pypi.python.org/pypi/chembl_migration_model/
     :alt: Supported Python versions
 
-.. image:: https://pypip.in/status/chembl_migration_model/badge.svg
+.. image:: https://img.shields.io/pypi/status/chembl_migration_model.svg
     :target: https://pypi.python.org/pypi/chembl_migration_model/
     :alt: Development Status
 
-.. image:: https://pypip.in/license/chembl_migration_model/badge.svg
+.. image:: https://img.shields.io/pypi/l/chembl_migration_model.svg
     :target: https://pypi.python.org/pypi/chembl_migration_model/
     :alt: License
 
