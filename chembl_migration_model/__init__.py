@@ -19,6 +19,7 @@ EXCLUDED_MODELS = ('CompoundImages',
                    'Journals',
                    'JournalArticles',
                    'RecordDrugProperties',
+                   'RecordSynonyms',
     )
 
 EXCLUDED_FIELDS = {'Activities': ('activity_type', 'updated_by', 'updated_on', 'manual_curation_flag', 'original_activity_id'),
@@ -37,7 +38,9 @@ EXCLUDED_FIELDS = {'Activities': ('activity_type', 'updated_by', 'updated_on', '
                    'TargetComponents':('relationship', 'stoichiometry'),
                    'UsanStems':('downgraded',),
                    'DrugMechanism':('curated_by', 'date_added', 'date_removed', 'downgraded', 'downgrade_reason', 'uniprot_accessions', 'curator_comment', 'curation_status'),
-                   'ProductPatents':('in_products',)
+                   'ProductPatents':('in_products',),
+                   'MetabolismRefs': ('downgraded', 'downgrade_reason'),
+                   'MechanismRefs': ('downgraded','downgrade_reason'),
 }
 
 #-----------------------------------------------------------------------------------------------------------------------
