@@ -30,8 +30,9 @@ EXCLUDED_FIELDS = {'Activities': ('activity_type', 'updated_by', 'updated_on', '
                    'Products': ('information_source', 'load_date', 'removed_date', 'product_class', 'tmp_ingred_count', 'exclude'),
                    'ProteinClassification': ('downgraded', 'replaced_by', 'sort_order'),
                    'MoleculeDictionary': ('structure_key', 'exclude', 'insert_date', 'molfile_update', 'downgraded', 'downgrade_reason', 'replacement_mrn', 'checked_by', 'nomerge', 'nomerge_reason', 'chebi_id'),
+                   'MoleculeSynonyms': ('molecule_synonym',),
                    'BioComponentSequences': ('updated_by', 'updated_on', 'insert_date', 'accession', 'db_source', 'db_version'),
-                   'Assays':('activity_count', 'assay_source', 'updated_on', 'updated_by', 'orig_description', 'a2t_complex', 'a2t_multi', 'mc_tax_id', 'mc_organism', 'mc_target_type', 'mc_target_name', 'mc_target_accession', 'a2t_assay_tax_id', 'a2t_assay_organism', 'a2t_updated_on', 'a2t_updated_by'),
+                   'Assays':('activity_count', 'assay_source', 'updated_on', 'updated_by', 'orig_description', 'a2t_complex', 'a2t_multi', 'mc_tax_id', 'mc_organism', 'mc_target_type', 'mc_target_name', 'mc_target_accession', 'a2t_assay_tax_id', 'a2t_assay_organism', 'a2t_updated_on', 'a2t_updated_by', 'curation_comment'),
                    'Docs': ('journal_id', 'updated_by', 'updated_on'),
                    'TargetDictionary': ('updated_by', 'updated_on', 'popularity', 'insert_date', 'target_parent_type', 'in_starlite', 'downgraded'),
                    'ComponentSequences':('updated_by', 'updated_on', 'insert_date'),
@@ -41,6 +42,8 @@ EXCLUDED_FIELDS = {'Activities': ('activity_type', 'updated_by', 'updated_on', '
                    'ProductPatents':('in_products',),
                    'MetabolismRefs': ('downgraded', 'downgrade_reason'),
                    'MechanismRefs': ('downgraded','downgrade_reason'),
+                   'BioassayOntology': ('parent_bao_id', 'term_type', 'bao_version'),
+                   'Metabolism': ('enzyme_comment', ),
 }
 
 #-----------------------------------------------------------------------------------------------------------------------
