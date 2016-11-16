@@ -20,6 +20,11 @@ EXCLUDED_MODELS = ('CompoundImages',
                    'JournalArticles',
                    'RecordDrugProperties',
                    'RecordSynonyms',
+                   'PaperSimilarityVw',
+                   'DocumentTerms',
+                   'Doc2Term',
+                   'TargetPredictions10Um',
+                   'TargetPredictions1Um',
     )
 
 EXCLUDED_FIELDS = {'Activities': ('activity_type', 'updated_by', 'updated_on', 'manual_curation_flag', 'original_activity_id'),
