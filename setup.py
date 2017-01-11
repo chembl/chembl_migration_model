@@ -11,8 +11,8 @@ except ImportError:
     from setuptools import setup
 
 setup(
-    name='chembl_migration_model',
-    version='0.8.2',
+    name='chembl-migration-model',
+    version='0.8.3',
     author='Michal Nowotka',
     author_email='mnowotka@ebi.ac.uk',
     description='Core ChEMBL python ORM model for data exports and migration',
@@ -21,7 +21,7 @@ setup(
     packages=['chembl_migration_model'],
     long_description=open('README.rst').read(),
     install_requires=[
-        'chembl_core_model>=0.8.2'
+        'chembl-core-model>=0.8.3'
     ],
     include_package_data=False,
     classifiers=['Development Status :: 4 - Beta',
