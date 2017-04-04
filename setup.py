@@ -12,7 +12,7 @@ except ImportError:
 
 setup(
     name='chembl-migration-model',
-    version='0.8.3',
+    version='0.9.5',
     author='Michal Nowotka',
     author_email='mnowotka@ebi.ac.uk',
     description='Core ChEMBL python ORM model for data exports and migration',
@@ -21,7 +21,7 @@ setup(
     packages=['chembl_migration_model'],
     long_description=open('README.rst').read(),
     install_requires=[
-        'chembl-core-model>=0.8.3'
+        'chembl-core-model>=0.9.5'
     ],
     include_package_data=False,
     classifiers=['Development Status :: 4 - Beta',
