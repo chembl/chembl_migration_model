@@ -18,16 +18,12 @@ from django.utils import six
 EXCLUDED_MODELS = ('CompoundImages',
                    'CompoundMols',
                    'Journals',
-                   'JournalArticles',
                    'RecordDrugProperties',
                    'RecordSynonyms',
-                   'PaperSimilarityVw',
                    'PaperSimilarity',
                    'MoleculeBrowseDrugs',
                    'DocumentTerms',
                    'Doc2Term',
-                   'TargetPredictions10Um',
-                   'TargetPredictions1Um',
                    'TargetPredictions',
     )
 
